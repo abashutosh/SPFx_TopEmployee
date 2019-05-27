@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "top-employee-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/topEmployee/TopEmployeeWebPart.js",
+          "manifest": "./src/webparts/topEmployee/TopEmployeeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TopEmployeeWebPartStrings": "lib/webparts/topEmployee/loc/{locale}.js"
+  }
+}
